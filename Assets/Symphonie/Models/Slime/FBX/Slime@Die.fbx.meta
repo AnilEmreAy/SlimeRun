@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 3b2cb24f43af65942bb77f3c2af89d96
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Base
+    100004: Bounds
+    100006: Core
+    100008: Core_end
+    100010: Front
+    100012: Front_end
+    100014: Group
+    100016: Group|Cage_L_Lib|Dupli|1.0.0.0.0.0.0.0.0
+    100018: Group|SlimeMesh_L_Lib|Dupli|2.0.0.0.0.0.0.0.0
+    100020: Left
+    100022: Left_end
+    100024: Right
+    100026: Right_end
+    100028: //RootNode
+    100030: Top
+    100032: Top_end
+    400000: Armature
+    400002: Base
+    400004: Bounds
+    400006: Core
+    400008: Core_end
+    400010: Front
+    400012: Front_end
+    400014: Group
+    400016: Group|Cage_L_Lib|Dupli|1.0.0.0.0.0.0.0.0
+    400018: Group|SlimeMesh_L_Lib|Dupli|2.0.0.0.0.0.0.0.0
+    400020: Left
+    400022: Left_end
+    400024: Right
+    400026: Right_end
+    400028: //RootNode
+    400030: Top
+    400032: Top_end
+    2300000: Bounds
+    2300002: Group|Cage_L_Lib|Dupli|1.0.0.0.0.0.0.0.0
+    2300004: Group|SlimeMesh_L_Lib|Dupli|2.0.0.0.0.0.0.0.0
+    3300000: Bounds
+    3300002: Group|Cage_L_Lib|Dupli|1.0.0.0.0.0.0.0.0
+    3300004: Group|SlimeMesh_L_Lib|Dupli|2.0.0.0.0.0.0.0.0
+    4300000: Group|Cage_L_Lib|Dupli|1.0.0.0.0.0.0.0.0
+    4300002: Group|SlimeMesh_L_Lib|Dupli|2.0.0.0.0.0.0.0.0
+    4300004: Bounds
+    7400000: Die
+    7400002: Dead
+    9500000: //RootNode
+    11400000: Armature
+    11400002: Base
+    11400004: Bounds
+    11400006: Core
+    11400008: Core_end
+    11400010: Front
+    11400012: Front_end
+    11400014: Group
+    11400016: Group|Cage_L_Lib|Dupli|1.0.0.0.0.0.0.0.0
+    11400018: Group|SlimeMesh_L_Lib|Dupli|2.0.0.0.0.0.0.0.0
+    11400020: Left
+    11400022: Left_end
+    11400024: Right
+    11400026: Right_end
+    11400028: //RootNode
+    11400030: //RootNode
+    11400032: Top
+    11400034: Top_end
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Slime_Shell
+    second: {fileID: 2100000, guid: 34bf8e1f9a9656340955f0a68a5416f7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Die
+      takeName: Scene
+      firstFrame: 20
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead
+      takeName: Scene
+      firstFrame: 80
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Armature
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 21370440e73547647a1884d6dbb03e5d,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
