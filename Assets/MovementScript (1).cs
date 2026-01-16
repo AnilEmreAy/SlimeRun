@@ -28,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("Uzama: çubuk gibi (Y büyür, X/Z incelir)")]
     public Vector3 tallScale = new Vector3(0.5f, 3.0f, 0.5f);
 
-    // Internal
+    
     private CharacterController controller;
-    private Vector3 moveVelocity;     // yatay hız (world)
-    private float verticalVelocity;   // dikey hız (jump/gravity)
+    private Vector3 moveVelocity;     
+    private float verticalVelocity;   
     private float lastJumpTime = -999f;
 
     void Start()
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Güvenlik: CC kapalıysa hiçbir şey yapma (hata basmasın)
+        
         if (controller == null || !controller.enabled) return;
 
         HandleMovement();
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         ApplyGravity();
         HandleScale();
 
-        // TEK Move
+        
         Vector3 finalMove = moveVelocity;
         finalMove.y = verticalVelocity;
         controller.Move(finalMove * Time.deltaTime);
@@ -115,17 +115,17 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Alpha1))
         {
-            targetScale = tallScale;      // çubuk gibi uzar
+            targetScale = tallScale;      
         }
         else if (Input.GetKey(KeyCode.Alpha2))
         {
-            targetScale = shortScale;     // uniform küçülür
+            targetScale = shortScale;     
         }
 
         transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * stretchSpeed);
     }
 
-    // ✅ Respawn/ölüm sonrası "saçma fırlama" olmasın diye çağır
+    
     public void RespawnReset()
     {
         verticalVelocity = 0f;

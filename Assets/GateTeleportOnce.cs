@@ -27,7 +27,7 @@ public class GateSlideOnce : MonoBehaviour
         if (door2 != null)
             door2.position += door2OpenOffset;
 
-        // 🔊 Kapı sesi (1 kere)
+        
         if (audioSource != null)
             audioSource.Play();
 

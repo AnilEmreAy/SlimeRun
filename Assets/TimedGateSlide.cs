@@ -12,7 +12,7 @@ public class TimedGateSlide : MonoBehaviour
     public Vector3 door2OpenOffset = new Vector3(2f, 0f, 0f);
 
     [Header("Timing")]
-    public float openDuration = 5f; // kaç saniye açýk kalsýn
+    public float openDuration = 5f; 
 
     private Vector3 door1ClosedPos;
     private Vector3 door2ClosedPos;
@@ -32,7 +32,7 @@ public class TimedGateSlide : MonoBehaviour
 
         Open();
 
-        // Butona tekrar basýlýrsa süreyi yeniden baþlat
+        
         if (timerRoutine != null) StopCoroutine(timerRoutine);
         timerRoutine = StartCoroutine(CloseAfterDelay());
     }

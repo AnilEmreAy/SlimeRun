@@ -116,7 +116,7 @@ public class SpiderPlayerController : MonoBehaviour
 
     void HandleWeb()
     {
-        // Web f�rlatma
+        
         if (Input.GetMouseButtonDown(0) && webPrefab != null && webJoint == null)
         {
             currentWeb = Instantiate(webPrefab, handTransform.position, Quaternion.identity);
@@ -124,15 +124,15 @@ public class SpiderPlayerController : MonoBehaviour
             if (webRb != null)
                 webRb.linearVelocity = cam.forward * webSpeed;
 
-            // SpringJoint ile oyuncuyu �ek
+            
             webJoint = gameObject.AddComponent<SpringJoint>();
             webJoint.autoConfigureConnectedAnchor = false;
-            webJoint.connectedAnchor = handTransform.position + cam.forward * 10f; // Web hedef pozisyonu
+            webJoint.connectedAnchor = handTransform.position + cam.forward * 10f; 
             webJoint.spring = swingSpring;
             webJoint.damper = swingDamper;
             webJoint.maxDistance = 0f;
 
-            // LineRenderer ekle
+            
             webLine = currentWeb.AddComponent<LineRenderer>();
             webLine.startWidth = 0.05f;
             webLine.endWidth = 0.05f;
@@ -142,7 +142,7 @@ public class SpiderPlayerController : MonoBehaviour
             webLine.endColor = Color.white;
         }
 
-        // Web b�rakma
+        
         if (Input.GetMouseButtonUp(0) && webJoint != null)
         {
             Destroy(webJoint);
